@@ -9,7 +9,7 @@ public class ForecastAdapter {
         public final TextView mWeatherTextView;
 
         public ForecastAdapterViewholder(View view) {
-
+            super(view);
         }
     }
 }

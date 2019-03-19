@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     // Completed (7) Set the width of the LinearLayout to match_parent and the height to wrap_content
 
     // Completed (8) Add a TextView with an id @+id/tv_weather_data
-    // TODO (9) Set the text size to 22sp
+    // Completed (9) Set the text size to 22sp
     // TODO (10) Make the width and height wrap_content
     // TODO (11) Give the TextView 16dp of padding
 

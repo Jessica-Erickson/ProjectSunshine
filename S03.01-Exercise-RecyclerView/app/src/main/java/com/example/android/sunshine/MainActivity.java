@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     // Completed (15) Add a class file called ForecastAdapter
     // Completed (22) Extend RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder>
 
-    // TODO (23) Create a private string array called mWeatherData
+    // Completed (23) Create a private string array called mWeatherData
 
     // TODO (47) Create the default constructor (we will pass in parameters in a later lesson)
 

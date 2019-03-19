@@ -5,6 +5,8 @@ import android.view.View;
 import android.widget.TextView;
 
 public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewholder> {
+    private String[] mWeatherData;
+
     public class ForecastAdapterViewholder extends RecyclerView.ViewHolder {
         public final TextView mWeatherTextView;
 

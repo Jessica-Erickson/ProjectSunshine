@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     // Completed (8) Add a TextView with an id @+id/tv_weather_data
     // Completed (9) Set the text size to 22sp
     // Completed (10) Make the width and height wrap_content
-    // TODO (11) Give the TextView 16dp of padding
+    // Completed (11) Give the TextView 16dp of padding
 
     // TODO (12) Add a View to the layout with a width of match_parent and a height of 1dp
     // TODO (13) Set the background color to #dadada

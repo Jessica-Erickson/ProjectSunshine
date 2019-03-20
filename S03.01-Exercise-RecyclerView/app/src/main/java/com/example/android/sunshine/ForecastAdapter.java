@@ -1,6 +1,7 @@
 package com.example.android.sunshine;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,5 +30,10 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
         View view = inflater.inflate(listItemId, viewGroup, shouldAttachImmediately);
 
         return new ForecastAdapterViewholder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(ForecastAdapterViewholder forecastAdapterViewholder, int i) {
+
     }
 }

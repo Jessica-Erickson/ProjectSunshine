@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
     // Completed (30) Return 0 if mWeatherData is null, or the size of mWeatherData if it is not null
 
     // Completed (31) Create a setWeatherData method that saves the weatherData to mWeatherData
-    // TODO (32) After you save mWeatherData, call notifyDataSetChanged
+    // Completed (32) After you save mWeatherData, call notifyDataSetChanged
     // Within ForecastAdapter.java /////////////////////////////////////////////////////////////////
 
 

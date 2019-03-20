@@ -46,4 +46,8 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
             return 0;
         }
     }
+
+    public void setWeatherData(String[] weatherData) {
+        mWeatherData = weatherData;
+    }
 }

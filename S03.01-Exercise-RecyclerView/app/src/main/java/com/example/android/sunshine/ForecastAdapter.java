@@ -37,4 +37,9 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
         String weatherText = mWeatherData[i];
         forecastAdapterViewholder.mWeatherTextView.setText(weatherText);
     }
+
+    @Override
+    public int getItemCount() {
+        return 0;
+    }
 }

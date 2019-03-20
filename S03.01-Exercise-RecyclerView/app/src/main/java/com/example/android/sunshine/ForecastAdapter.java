@@ -30,6 +30,6 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
         boolean shouldAttachImmediately = false;
         View view = inflater.inflate(listItemId, viewGroup, shouldAttachImmediately);
 
-        return null;
+        return new ForecastAdapterViewholder(view);
     }
 }

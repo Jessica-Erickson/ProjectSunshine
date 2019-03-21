@@ -107,7 +107,13 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapter.F
         new FetchWeatherTask().execute(location);
     }
 
-    // TODO (9) Override ForecastAdapterOnClickHandler's onClick method
+    // Completed (9) Override ForecastAdapterOnClickHandler's onClick method
+
+    @Override
+    public void onClick(String string) {
+
+    }
+
     // TODO (10) Show a Toast when an item is clicked, displaying that item's weather data
 
     /**

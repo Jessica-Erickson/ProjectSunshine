@@ -57,7 +57,14 @@ public class ForecastAdapter extends RecyclerView.Adapter<ForecastAdapter.Foreca
             // TODO (7) Call setOnClickListener on the view passed into the constructor (use 'this' as the OnClickListener)
         }
 
-        // TODO (6) Override onClick, passing the clicked day's data to mClickHandler via its onClick method
+        // Completed (6) Override onClick, passing the clicked day's data to mClickHandler via its onClick method
+
+        @Override
+        public void onClick(View v) {
+            int position = getAdapterPosition();
+            String weather = mWeatherData[position];
+            mClickHandler.onClick(weather);
+        }
     }
 
     /**

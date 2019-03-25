@@ -211,6 +211,16 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
         return true;
     }
 
+    private void openMap() {
+        String address = "2930 Pearl St, Boulder, CO 80301";
+        Uri.Builder builder = new Uri.Builder();
+        builder.scheme("geo").path("0,0").appendQueryParameter("q", address);
+
+        Uri addressUri = builder.build();
+
+
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -222,6 +232,10 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
         }
 
         // TODO (2) Launch the map when the map menu item is clicked
+        if (id == R.id.open_map) {
+            openMap();
+            return true;
+        }
 
         return super.onOptionsItemSelected(item);
     }

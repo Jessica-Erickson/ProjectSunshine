@@ -16,6 +16,9 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        mWeatherDisplay = (TextView) findViewById(R.id.tv_detail_display);
+
+
         // TODO (2) Display the weather forecast that was passed from MainActivity
     }
 }

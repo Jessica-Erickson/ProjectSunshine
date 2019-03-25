@@ -218,7 +218,11 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
 
         Uri addressUri = builder.build();
 
+        Intent intent = new Intent(Intent.ACTION_VIEW, addressUri);
 
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
     }
 
     @Override
@@ -231,7 +235,7 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
             return true;
         }
 
-        // TODO (2) Launch the map when the map menu item is clicked
+        // Completed (2) Launch the map when the map menu item is clicked
         if (id == R.id.open_map) {
             openMap();
             return true;
